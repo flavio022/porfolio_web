@@ -11,7 +11,6 @@ export default createGlobalStyle`
     background-color:#F2F2F2;
     -webkit-font-smothing:antialiased;
     display:flex;
-    width:100%;
   }
   body,input,button{
     font-family:'Roboto Slab',serif;
@@ -23,5 +22,22 @@ export default createGlobalStyle`
   }
   button{
     cursor:pointer;
+  }
+
+  @media (max-width: 900px) {
+    body{
+      width:100vh;
+      margin:0px;
+      padding:0px;
+    }
+    #root{
+      width:100vh;
+      margin:0px;
+      padding:0px;
+    }
+    html{
+      width:100vh;
+
+    }
   }
 `;

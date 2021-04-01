@@ -1,12 +1,11 @@
 import styled, { keyframes } from "styled-components";
-import { shade } from "polished";
 export const Header = styled.header`
   background: #0d0d0d;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-
+  margin: 0 auto;
   h1 {
     color: #585956;
   }
