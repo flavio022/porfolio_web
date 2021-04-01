@@ -1,12 +1,12 @@
 import styled, { keyframes } from "styled-components";
 import { shade } from "polished";
-export const Container = styled.div``;
 export const Header = styled.header`
-  padding: 82px 0;
   background: #0d0d0d;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+
   h1 {
     color: #585956;
   }
@@ -38,6 +38,8 @@ export const AboutMe = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+
   h3 {
     color: #f2f2f2;
 
@@ -58,6 +60,7 @@ export const Contact = styled.div`
   align-items: center;
   justify-content: center;
   padding: 20px;
+  width: 100%;
 
   button {
     padding: 10px;
@@ -76,14 +79,15 @@ export const MyWorks = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: 50px;
+  width: 100%;
 `;
 
 export const ProjectItem = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  align-items: center;
   justify-content: center;
+  width: 100%;
 
   div {
     margin: 5px;
@@ -91,6 +95,8 @@ export const ProjectItem = styled.div`
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
 
     a {
       text-decoration: none;
@@ -115,4 +121,5 @@ export const Tecnlogies = styled.div`
   padding-top: 50px;
   align-items: center;
   justify-content: center;
+  width: 100%;
 `;

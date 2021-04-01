@@ -10,6 +10,8 @@ export default createGlobalStyle`
   body{
     background-color:#F2F2F2;
     -webkit-font-smothing:antialiased;
+    display:flex;
+    width:100%;
   }
   body,input,button{
     font-family:'Roboto Slab',serif;

@@ -15,8 +15,7 @@ import {
   AboutMe,
   Contact,
   MyWorks,
-  ProjectItem,
-  Tecnlogies
+  ProjectItem
 } from "./styles";
 
 const Dashboard: React.FC = () => {
